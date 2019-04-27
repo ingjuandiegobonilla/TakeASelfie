@@ -14,13 +14,13 @@ public class MainActivity extends AppCompatActivity {
 
     public static final int REQUEST_CAPTURE_PHOTO = 120;
     private ImageView iPhoto;
-    private Button bCamera = findViewById(R.id.bCamera);
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        Button bCamera = findViewById(R.id.bCamera);
         iPhoto = findViewById(R.id.iPhoto);
         bCamera.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 takePhoto();
             }
         });
+
     }
 
     private void takePhoto(){
@@ -45,4 +46,5 @@ public class MainActivity extends AppCompatActivity {
             iPhoto.setImageBitmap(bitmap);
         }
     }
+
 }
