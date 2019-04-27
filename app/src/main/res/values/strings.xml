@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Take_a_pic</string>
+    <string name="tittle_text">Take a selfie</string>
+    <string name="camera">Camera</string>
+</resources>
