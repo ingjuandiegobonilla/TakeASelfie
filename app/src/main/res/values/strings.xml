@@ -2,4 +2,8 @@
     <string name="app_name">Take_a_pic</string>
     <string name="tittle_text">Take a selfie</string>
     <string name="camera">Camera</string>
+    <string name="pic">guardarFoto</string>
+    <string name="mostrar">Buscar</string>
+    <string name="search">Buscar en mapa</string>
+    <string name="mapSearch">Buscar en mapa</string>
 </resources>
